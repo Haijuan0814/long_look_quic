@@ -20,11 +20,14 @@ graph3 = ['10_36_1', '50_36_1', '100_36_1' ]
 settings = graph1 + graph2 + graph3
 ### Changing
 # Q043, v1 ,v2
-mainDir = "../data/IMC23_beforetuning/"
+# mainDir = "../data/IMC23_beforetuning/"
+
+mainDir = "../data/haijuan/"
 ### TIMES run
 total_runs = 100
 # X_36_0, X_36_1, X_112_0
-setting = "X_36_1"
+# setting = "X_36_1"
+setting = "X_36_0"
 # Objs
 objs = obj_set1
 #####

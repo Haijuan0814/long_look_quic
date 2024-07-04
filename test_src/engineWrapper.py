@@ -24,7 +24,7 @@ indexX = "5k,10k,100k,200k,500k,1mb,10mb,1mbx1,500kx2,200kx5,100kx10,10kx100,5kx
 def initialize():
     configs = Configs()
 
-    configs.set('project', 'FEC-HTTP')
+    configs.set('project', 'FEC-HTTP')   
     configs.set('experiment', 'Q043')
     # give python path of virtual env with all required modules
     configs.set('pythonBinary', '/proj/FEC-HTTP/nenv/bin/python')
